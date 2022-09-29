@@ -1,0 +1,3 @@
+# @package _group_
+_target_: models.DNNClassifier
+hidden_layers: [32, 32, 32, 32]

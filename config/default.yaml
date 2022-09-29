@@ -1,0 +1,24 @@
+defaults:
+    - dataset: temp
+    - model: ???
+
+dataloader:
+    batch_size: 128
+    pin_memory: True
+    num_workers: 8
+
+optimizer:
+    lr: 0.001
+
+trainer:
+    max_epochs: 10
+    gpus: 1
+    log_gpu_memory: True
+    check_val_every_n_epoch: 1
+
+seed: 1234
+
+use_wandb: False
+wandb:
+    project: demo
+    log_model: True

@@ -1,0 +1,3 @@
+# @package _group_
+_target_: data.MNISTDataModule
+data_dir: '/cluster/research-groups/hutchinson/data/'
