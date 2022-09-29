@@ -1,4 +1,4 @@
-# Simplifying Code With PyTorch Lightning & Hydra 
+# Simplifying Code With PyTorch Lightning, Hydra, and Weights & Biases 
 
 ## Overview
 
@@ -30,3 +30,7 @@ Easier to reproduce
 - Lightning has out-of-the-box integration with the popular logging/visualizing frameworks (Tensorboard, MLFlow, Neptune.ai, Comet.ml, Wandb).
 - Minimal running speed overhead (about 300 ms per epoch compared with pure PyTorch).
 - Automated features such as: Distributed training, early stopping, checkpointing, and more
+
+## Weights and Biases
+
+[Weights & Biases](https://wandb.ai/site) is a experiment tracking, dataset versioning, and model management platform with built in web-based visualization dashboard.
